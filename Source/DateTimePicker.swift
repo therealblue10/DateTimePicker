@@ -266,8 +266,8 @@ public protocol DateTimePickerDelegate: class {
     @IBOutlet private var titleView: UIView!
     @IBOutlet private var dateTitleLabel: UILabel!
     @IBOutlet private var todayButton: UIButton!
-    @IBOutlet private var doneButton: UIButton!
-    @IBOutlet private var cancelButton: UIButton!
+    @IBOutlet public var doneButton: UIButton!
+    @IBOutlet public var cancelButton: UIButton!
     @IBOutlet private var colonLabel1: UILabel!
     @IBOutlet private var colonLabel2: UILabel!
     
